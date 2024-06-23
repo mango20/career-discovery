@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "title": "R",
+      "labels": [
+        "Airplane Mechanic",
+        "Auto Mechanic",
+        "Carpenter",
+        "Actor/Actress",
+        "Surveyor",
+        "Construction Inspector",
+        "Radio Mechanic",
+        "Locomotive Engineer",
+        "Machinist",
+        "Electrician",
+        "Farmer",
+        "Helicopter Pilot",
+        "Electronic Technician",
+        "Welder"
+      ]
+    },
+    {
+      "title": "I",
+      "labels": [
+        "Meteorologist",
+        "Biologist",
+        "Astronomer",
+        "Medical Laboratory Technician",
+        "Anthropologist",
+        "Chemist",
+        "Independent Research Scientist",
+        "Writer of Scientific Articles",
+        "Geologist",
+        "Botanist",
+        "Scientific Research Worker",
+        "Physicist",
+        "Social Science Researcher",
+        "Environmental Analyst"
+      ]
+    },
+    {
+      "title": "A",
+      "labels": [
+        "Poet",
+        "Musician",
+        "Novelist",
+        "Actor/Actress",
+        "Free-Lance Write",
+        "Musical Arrange",
+        "Journalist",
+        "Artist",
+        "Singer",
+        "Composer",
+        "Sculptor/Sculptress",
+        "Playwright",
+        "Cartoonist",
+        "Entertainer"
+      ]
+    },
+    {
+      "title": "S",
+      "labels": [
+        "Career Counselor",
+        "Sociologist",
+        "High School Teacher",
+        "Substance Abuse Counselor",
+        "Juvenile Delinquency Expert",
+        "Speech Therapist",
+        "Marriage Counselor",
+        "Clinical Psychologist",
+        "Social Science Teacher",
+        "Personal Counselor",
+        "Youth Camp Director",
+        "Social Worker",
+        "Rehabilitation Counselor",
+        "Playground Director"
+      ]
+    },
+    {
+      "title": "E",
+      "labels": [
+        "Buyer",
+        "Advertising Executive",
+        "Manufacturer's Representative",
+        "Business Executive",
+        "Master of Ceremonies",
+        "Salesperson",
+        "Real Estate Salesperson",
+        "Department Store Manager",
+        "Sales Manager",
+        "Public Relations Executive",
+        "TV Station Manager",
+        "Small Business Owner",
+        "Legislator",
+        "Airport Manager"
+      ]
+    },
+    {
+      "title": "C",
+      "labels": [
+        "Bookkeeper",
+        "Budget Reviewer",
+        "Certified Public Accountant",
+        "Credit Investigator",
+        "Bank Teller",
+        "Tax Expert",
+        "Inventory Controller",
+        "Computer Operator",
+        "Financial Analyst",
+        "Cost Estimator",
+        "Payroll Clerk",
+        "Bank Examiner",
+        "Accounting Clerk",
+        "Audit Clerk"
+      ]
+    }
+  ]
+}

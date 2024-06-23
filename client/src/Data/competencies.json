@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "title": "R",
+      "labels": [
+        "I have used wood shop power tools such as a power saw, lathe, or sander",
+        "I can make a scale drawing",
+        "I can change a car's oil or tire",
+        "I have operated power tools such as a drill press, grinder, or sewing machine",
+        "I can refinish furniture or woodwork",
+        "I can make simple electrical repairs",
+        "I can repair furniture",
+        "I can use many carpentry tools",
+        "I can make simple plumbing repairs",
+        "I can build simple articles of wood",
+        "I can paint rooms of a house or an apartment"
+      ]
+    },
+    {
+      "title": "I",
+      "labels": [
+        "I can use algebra to solve mathematical problems",
+        "I can perform a scientific experiment or survey",
+        "I understand the \"half-life\" of a radioactive element",
+        "I can use logarithmic tables",
+        "I can use a computer to study a scientific problem",
+        "I can describe the function ofthe white blood cells",
+        "I can interpret simple chemical formulae",
+        "I understand why man-made satellites do not fall to earth",
+        "I can write a scientific report",
+        "I understand the \"Big Bang\" theory of the universe",
+        "I understand the role of DNA in genetics"
+      ]
+    },
+    {
+      "title": "A",
+      "labels": [
+        "I can play a musical instrument",
+        "I can participate in two- or four-part choral singing",
+        "I can perform as a musical soloist",
+        "I can act in a play",
+        "I can do interpretive reading",
+        "I can do a painting, watercolor, or sculpture",
+        "I can arrange or compose music",
+        "I can design clothing, posters, or furniture",
+        "I write stories or poetry well",
+        "I can write a speech",
+        "I can take attractive photographs"
+      ]
+    },
+    {
+      "title": "S",
+      "labels": [
+        "I find it easy to talk with all kinds of people",
+        "I am good at explaining things to others",
+        "I could work as a neighborhood organizer",
+        "People seek me out to tell me their troubles",
+        "I can teach children easily",
+        "I can teach adults easily",
+        "I am good at helping people who are upset or troubled",
+        "I have a good understanding of social relationships",
+        "I am good at teaching other",
+        "I am good at making people feel at ease",
+        "I am much better at working with people than with things or ideas"
+      ]
+    },
+    {
+      "title": "E",
+      "labels": [
+        "I know how to be a successful leader",
+        "I am a good public speaker",
+        "I can manage a sales campaign",
+        "I can organize the work of others",
+        "I am an ambitious and assertive person",
+        "I am good at getting people to do things my way",
+        "I am a good salesperson",
+        "I am a good debater",
+        "I can be very persuasive",
+        "I have good planning skills",
+        "I have some leadership skills"
+      ]
+    },
+    {
+      "title": "C",
+      "labels": [
+        "I can file correspondence and other papers",
+        "I have held an office job",
+        "I can use an automated posting machine",
+        "I can do a lot of paperwork in a short time",
+        "I can use simple data processing equipment",
+        "I can post credits and debits",
+        "I can keep accurate records of payment or sales",
+        "I can enter information at a computer terminal",
+        "I can write business letters",
+        "I can perform some routine office activities",
+        "I am a careful and orderly person"
+      ]
+    }
+  ]
+}

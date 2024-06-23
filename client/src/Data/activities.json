@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "title": "R",
+      "labels": [
+        "Fix electrical things",
+        "Repair cars",
+        "Fix mechanical things",
+        "Build things with wood",
+        "Take a Technology Education (e.g., Industrial Arts, Shop)",
+        "Take a Mechanical Drawing course",
+        "Take a Woodworking course",
+        "Take an Auto Mechanics course",
+        "Work with an outstanding mechanic or technician",
+        "Work outdoors",
+        "Operate motorized machines or equipment"
+      ]
+    },
+    {
+      "title": "I",
+      "labels": [
+        "Read scientific books or magazines",
+        "Work in a research office or laboratory",
+        "Work on a scientific project",
+        "Study a scientific theory",
+        "Work with chemicals",
+        "Apply mathematics to practical problems",
+        "Take a Physics course",
+        "Take a Chemistry course",
+        "Take a Mathematics course",
+        "Take a Biology course",
+        "Study scholarly or technical problems"
+      ]
+    },
+    {
+      "title": "A",
+      "labels": [
+        "Sketch, draw, or paint",
+        "Design furniture, clothing, or posters",
+        "Play in a band, group, or orchestra",
+        "Practice a musical instrument",
+        "Create portraits or photographs",
+        "Write novels or plays",
+        "Take an Art course",
+        "Arrange or compose music of any kind",
+        "Work with a gifted artist, writer, or sculptor",
+        "Perform for others (dance, sing, act, etc.)",
+        "Read artistic, literary, or musical articles"
+      ]
+    },
+    {
+      "title": "S",
+      "labels": [
+        "Meet important educators or therapists",
+        "Read sociology articles or books",
+        "Work for a charity",
+        "Help others with their personal problems",
+        "Study juvenile delinquency",
+        "Read psychology articles or books",
+        "Take a Human Relations course",
+        "Teach in a high school",
+        "Supervise activities for mentally ill patients",
+        "Teach adults",
+        "Work as a volunteer"
+      ]
+    },
+    {
+      "title": "E",
+      "labels": [
+        "Learn strategies for business success",
+        "Operate my own service or business",
+        "Attend sales conferences",
+        "Take a short course on administration or leadership",
+        "Serve as an officer of any group",
+        "Supervise the work of others",
+        "Meet important executives and leaders",
+        "Lead a group in accomplishing some goal",
+        "Participate in a political campaign",
+        "Act as an organizational or business consultant",
+        "Read business magazines or articles"
+      ]
+    },
+    {
+      "title": "C",
+      "labels": [
+        "Fill out income tax forms",
+        "Add, subtract, multiply, and divide numbers in business or bookkeeping",
+        "Operate office machines",
+        "Keep detailed records of expenses",
+        "Set up a record-keeping system",
+        "Take an Accounting course",
+        "Take a Commercial Math course",
+        "Take an inventory of supplies or products",
+        "Check paperwork or products for errors or flaws",
+        "Update records or files",
+        "Work in an office"
+      ]
+    }
+  ]
+}

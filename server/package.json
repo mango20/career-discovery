@@ -1,0 +1,45 @@
+{
+  "name": "server_template",
+  "version": "1.0.0",
+  "description": "server template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "server": "nodemon src/app.js",
+    "client": "npm run start --prefix ../client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "contributors": [
+    {
+      "name": "Larz Thimothy Pal-Ing"
+    },
+    {
+      "name": "Cha Manga"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "html-pdf": "^3.0.1",
+    "joi": "^17.13.1",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "node-gzip": "^1.1.2",
+    "nodemailer": "^6.9.13",
+    "pako": "^2.1.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-merger-js": "^5.1.1",
+    "pino": "^9.2.0",
+    "prettier": "^3.3.2",
+    "puppeteer": "^22.12.0",
+    "puppeteer-html-pdf": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3",
+    "pino-pretty": "^11.2.1"
+  },
+  "type": "module"
+}

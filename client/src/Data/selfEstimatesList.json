@@ -1,0 +1,18 @@
+{
+  "SE1": [
+    { "R": "Mechanical Ability" },
+    { "I": "Scientific Ability" },
+    { "A": "Artistic Ability" },
+    { "S": "Teaching Ability" },
+    { "E": "Sales Ability" },
+    { "C": "Clerical Ability" }
+  ],
+  "SE2": [
+    { "R": "Manual Skills" },
+    { "I": "Math Ability" },
+    { "A": "Musical Ability" },
+    { "S": "Understanding of others" },
+    { "E": "Managerial Skills" },
+    { "C": "Office Skills" }
+  ]
+}
