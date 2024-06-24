@@ -58,6 +58,6 @@ mongoose
       );
     });
   })
-  .catch(() => {
-    logger.error("Connection to DB failed");
+  .catch((error) => {
+    logger.error(error, "Connection to DB failed");
   });
