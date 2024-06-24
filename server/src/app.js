@@ -48,9 +48,7 @@ process.on("uncaughtException", (error) => {
 });
 
 mongoose
-  .connect(
-    `mongodb+srv://careerdiscovery-hostinger:CareerDiscovery2024@careerdiscoverywithjpro.mo7i8mg.mongodb.net/?retryWrites=true&w=majority&appName=careerdiscoverywithjprocter`
-  )
+  .connect(process.env.CONNECTION_STRING)
   .then(() => {
     logger.info("Connected to DB!");
     app.listen(PORT, () => {
