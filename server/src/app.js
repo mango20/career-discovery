@@ -5,6 +5,7 @@ import express from "express";
 import helmet from "helmet";
 import cors from "cors";
 import mongoose from "mongoose";
+import path from "path";
 //Utilities
 import logger from "./global/utilities/logger.js";
 import errorHandler from "./global/utilities/error/errorHandler.js";
