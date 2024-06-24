@@ -4,12 +4,13 @@
   "description": "server template",
   "main": "index.js",
   "scripts": {
-    "deploy": "node src/app.js && npm run build --prefix ../client",
+    "deploy": "npm run start:server && npm run build:client",
+    "start:server": "node src/app.js",
+    "build:client": "npm run client:build --prefix ../client",
     "client:build": "npm run build --prefix ../client",
-    "start": "node src/app.js",
-    "server": "nodemon src/app.js",
     "client": "npm run start --prefix ../client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon src/app.js"
   },
   "contributors": [
     {

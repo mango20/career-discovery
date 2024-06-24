@@ -1,5 +1,5 @@
 const setResponseHeadersMW = function (req, res, next) {
-  res.setHeader("Content-Type", "application/json;charset=UTF-8");
+  res.setHeader("Content-Type", "html;application/json;charset=UTF-8");
   res.setHeader("X-Frame-Options", "Deny");
   res.setHeader(
     "Strict-Transport-Security",
