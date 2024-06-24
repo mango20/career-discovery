@@ -28,6 +28,13 @@ app.use(setResponseHeadersMW);
 app.use(cors());
 app.use(apiLoggerMW);
 
+app.use(express.static(path.join(__dirname, "client/dist")));
+
+// Handle all other routes
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/dist/index.html"));
+});
+
 //Routes
 // app.use("/api/example", example);
 app.use("/api/sds", sds);
