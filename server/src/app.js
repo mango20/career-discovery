@@ -6,6 +6,8 @@ import helmet from "helmet";
 import cors from "cors";
 import mongoose from "mongoose";
 import path from "path";
+import * as url from "url";
+
 //Utilities
 import logger from "./global/utilities/logger.js";
 import errorHandler from "./global/utilities/error/errorHandler.js";
@@ -17,7 +19,8 @@ import apiLoggerMW from "./global/middlewares/apiLogger.mw.js";
 import example from "./routes/example.rts.js";
 import sds from "./routes/sds.rts.js";
 //<--DEPENDENCIES-->//
-
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const app = express();
 const PORT = 5000 || process.env.PORT;
 
