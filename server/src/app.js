@@ -39,6 +39,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../../client/build/index.html"));
 });
 
+app.use("/testing", (req, res) => {
+  res.send("hakdog");
+});
 //Routes
 // app.use("/api/example", example);
 app.use("/api/sds", sds);
