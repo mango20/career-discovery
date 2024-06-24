@@ -22,7 +22,7 @@ import sds from "./routes/sds.rts.js";
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const app = express();
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT || 5000;
 
 //express config
 app.use(express.json());
@@ -40,6 +40,7 @@ app.get("*", (req, res) => {
 });
 
 app.use("/testing", (req, res) => {
+  console.log("hakdog");
   res.send("hakdog");
 });
 //Routes
