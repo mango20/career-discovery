@@ -165,7 +165,10 @@ const Index = () => {
       navigate(url);
     } else {
       const isStepValid = await trigger();
-      if (isStepValid) setActiveStep((prevActiveStep) => prevActiveStep + 1);
+      if (isStepValid) {
+        setActiveStep((prevActiveStep) => prevActiveStep + 1);
+        window.scrollTo(0, 0);
+      }
     }
   };
 
@@ -175,6 +178,7 @@ const Index = () => {
 
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    window.scrollTo(0, 0);
   };
 
   const [isLoading, setIsLoading] = useState(false);
