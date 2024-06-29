@@ -10,7 +10,7 @@ import useDocumentTitle from "../../utility/title";
 const Index = () => {
   useDocumentTitle("Response List");
   const { name, age } = useParams();
-  console.log(name, age);
+
   const { getResponseQuestionnaire } = useQuestionnaire();
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
@@ -22,7 +22,6 @@ const Index = () => {
     const handleGetAllResponse = async () => {
       try {
         const response = await getResponseQuestionnaire(name, age);
-        console.log(response); //
 
         setRows(response);
       } catch (error) {
@@ -34,7 +33,6 @@ const Index = () => {
   }, [name, age]);
 
   const getEducationLabel = (id) => {
-    console.log(id);
     switch (id) {
       case "highSchool":
         return "High School Diploma";
@@ -61,8 +59,6 @@ const Index = () => {
         report: row.report,
       }))
     : [];
-
-  console.log(rowsWithEducation);
 
   const gridHeight = isSmallScreen ? 400 : 600;
   const gridMargin = isSmallScreen

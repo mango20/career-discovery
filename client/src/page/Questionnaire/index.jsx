@@ -132,7 +132,6 @@ const Index = () => {
     };
   }, []);
 
-  console.log(watch());
   function getStepContent(step) {
     switch (step) {
       case 0:
@@ -155,13 +154,12 @@ const Index = () => {
   }
 
   const handleNext = async () => {
-    console.log(Config.code);
     const formData = watch();
     if (formData.fullName === Config.code && formData.age) {
       const url = `/response/${encodeURIComponent(
         formData.fullName
       )}/${encodeURIComponent(formData.age)}`;
-      console.log(url);
+
       navigate(url);
     } else {
       const isStepValid = await trigger();
@@ -277,14 +275,11 @@ const Index = () => {
     calculateTotals(payload);
 
     calculateTop3Dimensions(payload);
-    console.log("============+", payload);
-    console.log(data);
 
     try {
       setIsLoading(true);
       const response = await postQuestionnaireAnswers(payload);
-      console.log(response);
-      // console.log("Response from server:", response.data);
+
       setIsLoading(false);
       reset();
       handleClose();

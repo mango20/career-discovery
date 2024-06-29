@@ -29,7 +29,7 @@ const GRadio = ({ choices, name, control, register, errors }) => {
                 value={field.value ? field.value : ""}
                 onChange={(e) => {
                   field.onChange(e.target.value);
-                  console.log(e.target.value);
+
                   if (errors[name]) {
                     control.setError(name);
                   }

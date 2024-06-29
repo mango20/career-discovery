@@ -40,7 +40,6 @@ app.use(apiLoggerMW);
 // });
 
 app.use("/testing", (req, res) => {
-  console.log("test");
   res.send("test");
 });
 //Routes

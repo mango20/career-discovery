@@ -10,7 +10,6 @@ import {
 } from "@mui/material";
 
 const ModalView = ({ open, handleClose, data }) => {
-  console.log(data);
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
 

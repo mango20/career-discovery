@@ -72,7 +72,7 @@ export const createSDSCTRL = async (req, res, next) => {
     const summaryCode = report.summaryCode;
     let rSummaryCode = summaryCode.join(" ");
     const printSummaryCodeEq = displaySummaryEquivalent(summaryCode);
-    console.log(summaryCode, rSummaryCode);
+
     // Activities
 
     const printedActivityR = printQuestionsAndAnswers(
@@ -380,16 +380,10 @@ function mapOccupations(occupationalDaydreams) {
     const occupation = occupationalDaydreams.occD[key];
     const code = occupationalDaydreams.occDC[key];
 
-    console.log(
-      `Processing key ${key}, occupation: ${occupation}, code: ${code}`
-    );
-
     results.push(
       `<tr><td>${occupation}</td><td>${code ? code : "N/A"}</td></tr>`
     );
   }
-
-  console.log("Results:", results);
 
   return results.join("");
 }
