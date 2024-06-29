@@ -39,9 +39,6 @@ app.use(apiLoggerMW);
 //   res.sendFile(path.join(__dirname, "../../client/build/index.html"));
 // });
 
-app.use("/", (req, res) => {
-  res.send("test");
-});
 //Routes
 // app.use("/api/example", example);
 app.use("/api/sds", sds);
