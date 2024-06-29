@@ -29,13 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(helmet({ contentSecurityPolicy: false }));
 // app.use(setResponseHeadersMW);
-app.use(
-  cors({
-    origin: "https://careerdiscoverywithjprocter.com", // Allow requests from this origin
-    methods: ["GET", "POST"], // Allow methods you intend to use
-    allowedHeaders: ["Content-Type"], // Allow additional headers if necessary
-  })
-);
+app.use(cors());
 app.use(apiLoggerMW);
 
 // app.use(express.static(path.join(__dirname, "../../client/build")));
@@ -45,7 +39,7 @@ app.use(apiLoggerMW);
 //   res.sendFile(path.join(__dirname, "../../client/build/index.html"));
 // });
 
-app.use("/testing", (req, res) => {
+app.use("/", (req, res) => {
   res.send("test");
 });
 //Routes
