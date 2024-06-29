@@ -22,7 +22,7 @@ import sds from "./routes/sds.rts.js";
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 8800;
 
 //express config
 app.use(express.json());
@@ -32,16 +32,16 @@ app.use(helmet({ contentSecurityPolicy: false }));
 app.use(cors());
 app.use(apiLoggerMW);
 
-app.use(express.static(path.join(__dirname, "../../client/build")));
+// app.use(express.static(path.join(__dirname, "../../client/build")));
 
-// Handle all other routes
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../client/build/index.html"));
-});
+// // Handle all other routes
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../../client/build/index.html"));
+// });
 
 app.use("/testing", (req, res) => {
-  console.log("hakdog");
-  res.send("hakdog");
+  console.log("test");
+  res.send("test");
 });
 //Routes
 // app.use("/api/example", example);
